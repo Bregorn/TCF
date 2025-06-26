@@ -29,7 +29,8 @@ const LandingPage = () => {
         initial={{ y: -100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        className="fixed top-0 w-full z-50 bg-slate-950/80 backdrop-blur-xl border-b border-slate-800/50"
+        className="fixed top-0 w-full z-50 backdrop-blur-xl border-b border-slate-800/50"
+        style={{backgroundColor: 'rgba(0, 48, 73, 0.8)'}}
       >
         <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
           <div className="flex items-center space-x-2">
