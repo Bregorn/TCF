@@ -66,7 +66,12 @@ const LandingPage = () => {
         
         {/* Animated grid pattern */}
         <div className="absolute inset-0 z-10">
-          <div className="absolute inset-0 bg-[linear-gradient(to_right,#8b5cf6_1px,transparent_1px),linear-gradient(to_bottom,#8b5cf6_1px,transparent_1px)] bg-[size:64px_64px] opacity-10"></div>
+          <div 
+            className="absolute inset-0 bg-[size:64px_64px] opacity-10"
+            style={{
+              backgroundImage: 'linear-gradient(to right, #f77f00 1px, transparent 1px), linear-gradient(to bottom, #f77f00 1px, transparent 1px)'
+            }}
+          ></div>
         </div>
 
         <div className="relative z-20 max-w-7xl mx-auto px-6 text-center">
