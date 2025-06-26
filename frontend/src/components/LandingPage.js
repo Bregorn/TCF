@@ -148,7 +148,7 @@ const LandingPage = () => {
             className="text-center mb-20"
           >
             <h2 className="text-5xl md:text-6xl font-bold mb-6">
-              <span className="bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">
+              <span className="bg-clip-text text-transparent" style={{background: 'linear-gradient(to right, #f77f00, #3b82f6)', WebkitBackgroundClip: 'text'}}>
                 Powered by AI
               </span>
             </h2>
