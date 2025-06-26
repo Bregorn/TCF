@@ -23,7 +23,7 @@ import {
 
 const LandingPage = () => {
   return (
-    <div className="min-h-screen bg-slate-950 text-white overflow-hidden">
+    <div className="min-h-screen text-white overflow-hidden" style={{backgroundColor: '#003049'}}>
       {/* Navigation */}
       <motion.nav 
         initial={{ y: -100, opacity: 0 }}
