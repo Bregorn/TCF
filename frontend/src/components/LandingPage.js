@@ -189,7 +189,9 @@ const LandingPage = () => {
               initial={{ y: 50, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="group bg-slate-900/50 backdrop-blur-sm border border-slate-800/50 rounded-2xl p-8 hover:border-blue-500/50 transition-all transform hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/10"
+              className="group bg-slate-900/50 backdrop-blur-sm border border-slate-800/50 rounded-2xl p-8 transition-all transform hover:scale-105 hover:shadow-2xl"
+              onMouseEnter={(e) => e.currentTarget.style.borderColor = 'rgba(59, 130, 246, 0.5)'}
+              onMouseLeave={(e) => e.currentTarget.style.borderColor = 'rgba(148, 163, 184, 0.5)'}
             >
               <div className="mb-6">
                 <img 
@@ -212,7 +214,9 @@ const LandingPage = () => {
               initial={{ y: 50, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.3 }}
-              className="group bg-slate-900/50 backdrop-blur-sm border border-slate-800/50 rounded-2xl p-8 hover:border-purple-500/50 transition-all transform hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/10"
+              className="group bg-slate-900/50 backdrop-blur-sm border border-slate-800/50 rounded-2xl p-8 transition-all transform hover:scale-105 hover:shadow-2xl"
+              onMouseEnter={(e) => e.currentTarget.style.borderColor = 'rgba(247, 127, 0, 0.5)'}
+              onMouseLeave={(e) => e.currentTarget.style.borderColor = 'rgba(148, 163, 184, 0.5)'}
             >
               <div className="mb-6">
                 <img 
@@ -222,7 +226,7 @@ const LandingPage = () => {
                 />
               </div>
               <div className="flex items-center space-x-3 mb-4">
-                <Zap className="w-8 h-8 text-yellow-400" />
+                <Zap className="w-8 h-8" style={{color: '#f77f00'}} />
                 <h3 className="text-2xl font-bold">Campaign Generator</h3>
               </div>
               <p className="text-slate-300 leading-relaxed">
@@ -235,7 +239,9 @@ const LandingPage = () => {
               initial={{ y: 50, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.4 }}
-              className="group bg-slate-900/50 backdrop-blur-sm border border-slate-800/50 rounded-2xl p-8 hover:border-green-500/50 transition-all transform hover:scale-105 hover:shadow-2xl hover:shadow-green-500/10"
+              className="group bg-slate-900/50 backdrop-blur-sm border border-slate-800/50 rounded-2xl p-8 transition-all transform hover:scale-105 hover:shadow-2xl"
+              onMouseEnter={(e) => e.currentTarget.style.borderColor = 'rgba(34, 197, 94, 0.5)'}
+              onMouseLeave={(e) => e.currentTarget.style.borderColor = 'rgba(148, 163, 184, 0.5)'}
             >
               <div className="mb-6">
                 <img 
@@ -258,7 +264,9 @@ const LandingPage = () => {
               initial={{ y: 50, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.5 }}
-              className="group bg-slate-900/50 backdrop-blur-sm border border-slate-800/50 rounded-2xl p-8 hover:border-indigo-500/50 transition-all transform hover:scale-105 hover:shadow-2xl hover:shadow-indigo-500/10 md:col-span-2 lg:col-span-1"
+              className="group bg-slate-900/50 backdrop-blur-sm border border-slate-800/50 rounded-2xl p-8 transition-all transform hover:scale-105 hover:shadow-2xl md:col-span-2 lg:col-span-1"
+              onMouseEnter={(e) => e.currentTarget.style.borderColor = 'rgba(99, 102, 241, 0.5)'}
+              onMouseLeave={(e) => e.currentTarget.style.borderColor = 'rgba(148, 163, 184, 0.5)'}
             >
               <div className="mb-6">
                 <img 
