@@ -76,16 +76,12 @@ const LandingPage = () => {
             transition={{ duration: 1, ease: "easeOut" }}
           >
             <h1 className="text-6xl md:text-8xl font-bold mb-6 leading-tight">
-              <span className="bg-gradient-to-r from-white via-purple-200 to-blue-200 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-white via-orange-200 to-blue-200 bg-clip-text text-transparent" style={{background: 'linear-gradient(to right, white, #f77f00, #3b82f6)', WebkitBackgroundClip: 'text'}}>
                 Smarter Ads.
               </span>
               <br />
-              <span className="bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">
+              <span className="bg-clip-text text-transparent" style={{background: 'linear-gradient(to right, #f77f00, #3b82f6)', WebkitBackgroundClip: 'text'}}>
                 Better Results.
-              </span>
-              <br />
-              <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                Fully Automated.
               </span>
             </h1>
           </motion.div>
