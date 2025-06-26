@@ -163,7 +163,10 @@ const LandingPage = () => {
               initial={{ y: 50, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.1 }}
-              className="group bg-slate-900/50 backdrop-blur-sm border border-slate-800/50 rounded-2xl p-8 hover:border-purple-500/50 transition-all transform hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/10"
+              className="group bg-slate-900/50 backdrop-blur-sm border border-slate-800/50 rounded-2xl p-8 transition-all transform hover:scale-105 hover:shadow-2xl"
+              style={{'--hover-border': 'rgba(247, 127, 0, 0.5)', '--hover-shadow': 'rgba(247, 127, 0, 0.1)'}}
+              onMouseEnter={(e) => e.currentTarget.style.borderColor = 'rgba(247, 127, 0, 0.5)'}
+              onMouseLeave={(e) => e.currentTarget.style.borderColor = 'rgba(148, 163, 184, 0.5)'}
             >
               <div className="mb-6">
                 <img 
