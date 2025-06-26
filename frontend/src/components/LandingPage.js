@@ -45,7 +45,7 @@ const LandingPage = () => {
             <a href="#features" className="text-slate-300 hover:text-white transition-colors">Features</a>
             <a href="#how-it-works" className="text-slate-300 hover:text-white transition-colors">How It Works</a>
             <a href="#solutions" className="text-slate-300 hover:text-white transition-colors">Solutions</a>
-            <button className="bg-gradient-to-r from-purple-600 to-blue-600 px-6 py-2 rounded-lg hover:from-purple-700 hover:to-blue-700 transition-all transform hover:scale-105">
+            <button className="px-6 py-2 rounded-lg transition-all transform hover:scale-105" style={{background: 'linear-gradient(to right, #f77f00, #3b82f6)', color: 'white'}}>
               Book a Demo
             </button>
           </div>
