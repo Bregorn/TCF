@@ -116,12 +116,20 @@ const LandingPage = () => {
         <motion.div 
           animate={{ y: [0, -20, 0] }}
           transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-          className="absolute top-1/4 left-10 w-16 h-16 bg-gradient-to-r from-purple-500/20 to-blue-500/20 rounded-full backdrop-blur-sm border border-purple-500/30"
+          className="absolute top-1/4 left-10 w-16 h-16 rounded-full backdrop-blur-sm border"
+          style={{
+            background: 'linear-gradient(to right, rgba(247, 127, 0, 0.2), rgba(59, 130, 246, 0.2))',
+            borderColor: 'rgba(247, 127, 0, 0.3)'
+          }}
         />
         <motion.div 
           animate={{ y: [0, 20, 0] }}
           transition={{ duration: 3, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-          className="absolute top-1/3 right-10 w-12 h-12 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-full backdrop-blur-sm border border-blue-500/30"
+          className="absolute top-1/3 right-10 w-12 h-12 rounded-full backdrop-blur-sm border"
+          style={{
+            background: 'linear-gradient(to right, rgba(59, 130, 246, 0.2), rgba(247, 127, 0, 0.2))',
+            borderColor: 'rgba(59, 130, 246, 0.3)'
+          }}
         />
       </section>
 
