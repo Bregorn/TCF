@@ -61,7 +61,7 @@ const LandingPage = () => {
             alt="AI Technology Background"
             className="w-full h-full object-cover opacity-20"
           />
-          <div className="absolute inset-0 bg-gradient-to-br from-slate-950/90 via-purple-950/50 to-blue-950/90"></div>
+          <div className="absolute inset-0" style={{background: 'linear-gradient(to bottom right, rgba(0, 48, 73, 0.9) 0%, rgba(247, 127, 0, 0.5) 50%, rgba(59, 130, 246, 0.9) 100%)'}}></div>
         </div>
         
         {/* Animated grid pattern */}
