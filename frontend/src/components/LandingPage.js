@@ -101,7 +101,7 @@ const LandingPage = () => {
             transition={{ duration: 1, delay: 0.6, ease: "easeOut" }}
             className="flex flex-col sm:flex-row gap-6 justify-center items-center"
           >
-            <button className="group bg-gradient-to-r from-purple-600 to-blue-600 px-8 py-4 rounded-xl text-lg font-semibold hover:from-purple-700 hover:to-blue-700 transition-all transform hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/25 flex items-center space-x-2">
+            <button className="group px-8 py-4 rounded-xl text-lg font-semibold transition-all transform hover:scale-105 hover:shadow-2xl flex items-center space-x-2" style={{background: 'linear-gradient(to right, #f77f00, #3b82f6)', color: 'white', boxShadow: '0 25px 50px -12px rgba(247, 127, 0, 0.25)'}}>
               <span>Request Early Access</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </button>
